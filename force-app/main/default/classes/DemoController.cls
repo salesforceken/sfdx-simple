@@ -1,14 +1,15 @@
 public with sharing class DemoController {
     /**
      * Test comment 
-     *An empty constructor for the testing - test update - test update 2 - test update 3 - test update 4 - test update 5
+     *An empty constructor for the testing - test update - test update 2 - test update 3 - test update 4 - test update 5 - test update 6
+     * New Comment 
      */
     public DemoController() {}
 
     /**
      * Set the contact for the page using the lastName parameter, if there is one
      */
-    public DemoController(ApexPages.StandardController controller) {
+    public DemoController(ApexPages.ApexPages.StandardController controller) {
         // Get the last name from the url
         String lastName = ApexPages.currentPage().getParameters().get('lastName');
 
