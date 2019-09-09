@@ -9,6 +9,7 @@ public with sharing class DemoController {
      * New Comment 5
      * New Comment 6
      * New Comment 7 
+     * New Comment 8
      *
      */
     public DemoController() {}
